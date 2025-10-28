@@ -23,7 +23,7 @@ spring:
   #Database 설정
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url : jdbc:mariadb://222.239.249.197:3306/sp_db
+    url : jdbc:mariadb://222.239.249.197:3306/smart
     username: root
     password: ehdduf922
     type: com.zaxxer.hikari.HikariDataSource

@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 @Component
-public class TimeFormatUtils {
+public class TimeFortmatUtils {
 
     private static  final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
 
