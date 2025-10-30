@@ -1,5 +1,6 @@
 package it.exam.backoffice.config;
 
+import it.exam.backoffice.common.handler.CustomLogoutHandler;
 import it.exam.backoffice.common.utils.JWTUtils;
 import it.exam.backoffice.filter.CustomLogoutFilter;
 import it.exam.backoffice.filter.JWTFilter;
@@ -42,6 +43,7 @@ public class SecurityConfig {
 
     private final UserServiceDetails serviceDetails;
     private final JWTUtils jwtUtils;
+    private final CustomLogoutHandler logoutHandler;
 
     //시큐리티 우선 무시하기
     @Bean
@@ -85,8 +87,9 @@ public class SecurityConfig {
                 .logout(logout ->
                         logout.logoutRequestMatcher(
                                 PathPatternRequestMatcher.withDefaults()
-                                        .matcher(HttpMethod.GET, "/api/v1/logout")));
-    
+                                        .matcher(HttpMethod.GET, "/api/v1/logout"))
+                                .logoutSuccessHandler(logoutHandler));
+
             return http.build();
     }
 

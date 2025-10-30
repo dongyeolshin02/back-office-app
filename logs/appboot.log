@@ -1,25 +1,25 @@
-[2025-10-28 19:44:53:1128][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-[2025-10-28 19:44:53:1199][restartedMain] INFO  i.e.b.BackOfficeAppApplication - Starting BackOfficeAppApplication using Java 21.0.8 with PID 1044 (E:\back-office-app\build\classes\java\main started by ITSC in E:\back-office-app)
-[2025-10-28 19:44:53:1200][restartedMain] INFO  i.e.b.BackOfficeAppApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-10-28 19:44:54:1244][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[2025-10-28 19:44:54:1245][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[2025-10-28 19:44:54:2031][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2025-10-28 19:44:54:2098][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
-[2025-10-28 19:44:55:2914][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
-[2025-10-28 19:44:55:2926][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-[2025-10-28 19:44:55:2927][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-[2025-10-28 19:44:55:2927][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
-[2025-10-28 19:44:55:2986][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[2025-10-28 19:44:55:2986][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1741 ms
-[2025-10-28 19:44:56:3295][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-[2025-10-28 19:44:56:3369][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-[2025-10-28 19:44:56:3411][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-[2025-10-28 19:44:56:3787][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-[2025-10-28 19:44:56:3828][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[2025-10-28 19:44:56:3984][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@71650bb6
-[2025-10-28 19:44:56:3988][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[2025-10-28 19:44:56:4048][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[2025-10-28 19:44:56:4077][restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+[2025-10-30 19:16:26:1118][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+[2025-10-30 19:16:26:1202][restartedMain] INFO  i.e.b.BackOfficeAppApplication - Starting BackOfficeAppApplication using Java 21.0.8 with PID 7384 (E:\back-office-app\build\classes\java\main started by ITSC in E:\back-office-app)
+[2025-10-30 19:16:26:1202][restartedMain] INFO  i.e.b.BackOfficeAppApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-10-30 19:16:26:1264][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-10-30 19:16:26:1264][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-10-30 19:16:27:2666][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-10-30 19:16:27:2745][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+[2025-10-30 19:16:28:3682][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+[2025-10-30 19:16:28:3698][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+[2025-10-30 19:16:28:3699][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-10-30 19:16:28:3699][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+[2025-10-30 19:16:28:3764][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-10-30 19:16:28:3765][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2498 ms
+[2025-10-30 19:16:28:4036][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-10-30 19:16:29:4132][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+[2025-10-30 19:16:29:4196][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-10-30 19:16:29:4675][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-10-30 19:16:29:4719][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-10-30 19:16:29:4882][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@ffab165
+[2025-10-30 19:16:29:4887][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-10-30 19:16:29:4939][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-10-30 19:16:29:4965][restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'p6SpyDataSourceDecorator [com.p6spy.engine.spy.P6DataSource] -> dataSource [com.zaxxer.hikari.HikariDataSource]']
 	Database driver: undefined/unknown
 	Database version: 10.6.12
@@ -27,17 +27,17 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@489eee79) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ad10588)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@77932e47) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@749d352a)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4b4ff0e6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@79804142)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@178fb923) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@a26fa9d)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3edaf3ff) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@452b2f37)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2f87c010) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1248356f)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7be469d2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@67aaa30e)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@76bc68ab) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@258cd85e)
-[2025-10-28 19:44:56:4087][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d7e8fc4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4ffee1b6)
-[2025-10-28 19:44:57:5101][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[2025-10-28 19:44:57:5150][restartedMain] INFO  p6spy - 2025-10-28 19:44:57 | OperationTime : 10ms | 
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5662ecb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@285fb3e1)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@266b36c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a5d3c95)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ef95b63) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6b6c37e6)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5c260434) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3f7c22b1)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4b2a547e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@417399fa)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2d183244) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@732ff4fc)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6a3fd743) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@375e3fb7)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5b38a10a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@57bc2685)
+[2025-10-30 19:16:29:4973][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@432d76fe) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5484aab)
+[2025-10-30 19:16:31:6221][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-10-30 19:16:31:6270][restartedMain] INFO  p6spy - 2025-10-30 19:16:31 | OperationTime : 9ms | 
 (P6Spy sql,Hibernate format):
 
     select
@@ -47,12 +47,83 @@
     where
         table_schema=database() 
         and table_type='SEQUENCE'
-[2025-10-28 19:44:57:5172][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2025-10-28 19:44:58:5697][restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
-[2025-10-28 19:44:58:5697][restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-[2025-10-28 19:44:58:5831][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Deferred [Mvc [pattern='/static/imgs/**'], Ant [pattern='/static/imgs/**']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-[2025-10-28 19:44:58:5831][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.StaticResourceRequest$StaticResourceRequestMatcher@71ed3a2c. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-[2025-10-28 19:44:58:6077][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[2025-10-28 19:44:58:6104][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
-[2025-10-28 19:44:58:6141][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
-[2025-10-28 19:44:58:6148][restartedMain] INFO  i.e.b.BackOfficeAppApplication - Started BackOfficeAppApplication in 5.481 seconds (process running for 7.784)
+[2025-10-30 19:16:31:6288][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-10-30 19:16:31:6879][restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
+[2025-10-30 19:16:31:6880][restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[2025-10-30 19:16:31:7009][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Deferred [Mvc [pattern='/static/imgs/**'], Ant [pattern='/static/imgs/**']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2025-10-30 19:16:31:7009][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.StaticResourceRequest$StaticResourceRequestMatcher@71ad8981. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2025-10-30 19:16:32:7281][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-10-30 19:16:32:7296][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+[2025-10-30 19:16:32:7339][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+[2025-10-30 19:16:32:7347][restartedMain] INFO  i.e.b.BackOfficeAppApplication - Started BackOfficeAppApplication in 6.705 seconds (process running for 9.22)
+[2025-10-30 19:18:29:124203][SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[2025-10-30 19:18:29:124232][tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[2025-10-30 19:18:29:124250][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-10-30 19:18:29:124256][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-10-30 19:18:29:124451][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2025-10-30 20:42:59:2439][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+[2025-10-30 20:42:59:2698][restartedMain] INFO  i.e.b.BackOfficeAppApplication - Starting BackOfficeAppApplication using Java 21.0.8 with PID 5244 (E:\back-office-app\build\classes\java\main started by ITSC in E:\back-office-app)
+[2025-10-30 20:42:59:2699][restartedMain] INFO  i.e.b.BackOfficeAppApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-10-30 20:42:59:2782][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-10-30 20:42:59:2782][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-10-30 20:43:00:4210][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-10-30 20:43:00:4320][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interface.
+[2025-10-30 20:43:03:7096][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+[2025-10-30 20:43:03:7117][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+[2025-10-30 20:43:03:7120][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-10-30 20:43:03:7120][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+[2025-10-30 20:43:03:7200][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-10-30 20:43:03:7201][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4405 ms
+[2025-10-30 20:43:04:7537][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-10-30 20:43:04:7686][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+[2025-10-30 20:43:04:7804][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-10-30 20:43:05:8358][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-10-30 20:43:05:8402][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-10-30 20:43:05:8556][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3ebd969
+[2025-10-30 20:43:05:8564][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-10-30 20:43:05:8621][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-10-30 20:43:05:8650][restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'p6SpyDataSourceDecorator [com.p6spy.engine.spy.P6DataSource] -> dataSource [com.zaxxer.hikari.HikariDataSource]']
+	Database driver: undefined/unknown
+	Database version: 10.6.12
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-10-30 20:43:05:8660][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@214e86d5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@17584a8f)
+[2025-10-30 20:43:05:8660][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6e1e7149) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7dc5fe71)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@28e8b732) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7db19c92)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@60b82e54) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@325c6244)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5fe0021a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2ec45078)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@faf117a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5eb00c89)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@11f3597) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@d54f25c)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7a87064d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@240d99d0)
+[2025-10-30 20:43:05:8661][restartedMain] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5cc6a34b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@762a7c9d)
+[2025-10-30 20:43:07:10659][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-10-30 20:43:07:10734][restartedMain] INFO  p6spy - 2025-10-30 20:43:07 | OperationTime : 9ms | 
+(P6Spy sql,Hibernate format):
+
+    select
+        table_name 
+    from
+        information_schema.TABLES 
+    where
+        table_schema=database() 
+        and table_type='SEQUENCE'
+[2025-10-30 20:43:07:10757][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-10-30 20:43:08:11564][restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
+[2025-10-30 20:43:08:11565][restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[2025-10-30 20:43:08:11726][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Deferred [Mvc [pattern='/static/imgs/**'], Ant [pattern='/static/imgs/**']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2025-10-30 20:43:08:11726][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.StaticResourceRequest$StaticResourceRequestMatcher@1b2e4d89. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2025-10-30 20:43:08:12088][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-10-30 20:43:08:12127][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+[2025-10-30 20:43:08:12179][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+[2025-10-30 20:43:08:12186][restartedMain] INFO  i.e.b.BackOfficeAppApplication - Started BackOfficeAppApplication in 10.678 seconds (process running for 15.824)
+[2025-10-30 20:43:23:27323][http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-10-30 20:43:23:27323][http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-10-30 20:43:23:27324][http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2025-10-30 20:43:57:60854][SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[2025-10-30 20:43:57:60858][tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[2025-10-30 20:43:57:60862][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-10-30 20:43:57:60865][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-10-30 20:43:57:60966][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

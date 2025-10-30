@@ -24,7 +24,7 @@ public class CommonExceptionHandler {
      * @ReuqestBody 일 때 @Valid 를 통해서 에러 남
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    protected ResponseEntity<ApiErrorResponse> handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
+    public ResponseEntity<ApiErrorResponse> handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
         log.error("==== MethodArgumentNotValidException : {} ====", e.getMessage());
         List< ApiErrorResponse.FileError> filedErrors =
                 e.getBindingResult()
@@ -46,7 +46,7 @@ public class CommonExceptionHandler {
      * @return
      */
     @ExceptionHandler(ConstraintViolationException.class)
-    protected ResponseEntity<ApiErrorResponse> handleConstraintViolationException(ConstraintViolationException e) {
+    public ResponseEntity<ApiErrorResponse> handleConstraintViolationException(ConstraintViolationException e) {
         log.error("==== ConstraintViolationException : {} ====", e.getMessage());
         List< ApiErrorResponse.FileError> filedErrors =
                 e.getConstraintViolations()
@@ -67,7 +67,7 @@ public class CommonExceptionHandler {
      * @return
      */
     @ExceptionHandler(MissingServletRequestParameterException.class)
-    protected ResponseEntity<ApiErrorResponse>
+    public ResponseEntity<ApiErrorResponse>
     handleMissingServletRequestParameterException(MissingServletRequestParameterException e) {
         log.error("==== MissingServletRequestParameterException : {} ====", e.getMessage());
         ApiErrorResponse.FileError fileError =
@@ -80,6 +80,21 @@ public class CommonExceptionHandler {
                 .status(ErrorCodeEnum.INVALID_PARAMETER.getStatus())
                 .body(apiErrorResponse);
     }
+
+
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<ApiErrorResponse>
+    handleException(Exception e) {
+        log.error("==== Exception : {} ====", e.getMessage());
+        ApiErrorResponse apiErrorResponse =
+                getApiErrorResponse(ErrorCodeEnum.INTERNAL_SERVER_ERROR);
+
+        return ResponseEntity
+                .status(ErrorCodeEnum.INTERNAL_SERVER_ERROR.getStatus())
+                .body(apiErrorResponse);
+    }
+
 
 
     private ApiErrorResponse  getApiErrorResponse(ErrorCodeEnum errorCodeEnum) {
